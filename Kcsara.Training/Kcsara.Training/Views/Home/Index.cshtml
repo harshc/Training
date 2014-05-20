@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>KCSARA Training</h1>
+    <p class="lead">
+        King County Explorer Search and Rescue (ESAR) is the largest of nine units in the King County Search and Rescue Association (KCSARA).
+        The 100% volunteer organization was founded in 1954 as the first youth based search and rescue team in the nation.
+        ESAR is the county's primary ground search and non-technical rescue unit, and responds to over 60 missions a year in both King County and around the state of Washington.
+    </p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            King County Explorer Search & Rescue (ESAR) has an intensive 120 hour basic training course, held on alternating weekends in the fall and winter.
+            The course includes two indoor orientation and information sessions, and four outdoor sessions held at one of the local Boy Scout camps. Before starting with training,
+            please register with the system. 
+        </p>
+        <p>
+            <a class="btn btn-default" href="@Url.Action("Register", "Account")">Register &amp; Start &raquo;</a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Requirements</h2>
+        <p>
+            Completion of Basic Training and becoming field qualified requires that each member meet a set of requirements.
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("Requirements", "Home")">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Schedule</h2>
+        <p>The training is scheduled in the fall of each year and is spread over multiple weekends. </p>
+        <p><a class="btn btn-default" href="@Url.Action("Schedule", "Home")">Learn more &raquo;</a></p>
+    </div>
+</div>

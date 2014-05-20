@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="56e602ecb5cf4c358e43483e2835185a" Name="Diagram1">
+        <EntityTypeShape EntityType="AuthDatabaseModel.aspnet_Applications" Width="1.5" PointX="8.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.aspnet_Membership" Width="1.5" PointX="13.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.aspnet_Profile" Width="1.5" PointX="13.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.aspnet_Roles" Width="1.5" PointX="11" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.aspnet_Users" Width="1.5" PointX="11" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.Document" Width="1.5" PointX="5.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.MemberEmergencyContact" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.MemberMedical" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.Member" Width="1.5" PointX="0.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.MemberUnitDocument" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.PersonAddress" Width="1.5" PointX="3" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.PersonContact" Width="1.5" PointX="3" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.TrainingAward" Width="1.5" PointX="6" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.TrainingCours" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.TrainingRoster" Width="1.5" PointX="6" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.TrainingRule" Width="1.5" PointX="3.75" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AuthDatabaseModel.Training" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="AuthDatabaseModel.FK__aspnet_Me__Appli__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK__aspnet_Ro__Appli__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK__aspnet_Us__Appli__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK__aspnet_Me__UserI__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK__aspnet_Pr__UserI__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK_dbo_MemberEmergencyContacts_dbo_Members_Member_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK_dbo_MemberMedicals_dbo_Members_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK_dbo_MemberUnitDocuments_dbo_Members_Member_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK_dbo_PersonAddresses_dbo_Members_Person_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK_dbo_PersonContacts_dbo_Members_Person_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK_dbo_TrainingAwards_dbo_Members_Member_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK_dbo_TrainingRosters_dbo_Members_Person_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK_dbo_TrainingAwards_dbo_TrainingCourses_Course_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK_dbo_TrainingAwards_dbo_TrainingRosters_Roster_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK_dbo_TrainingAwards_dbo_TrainingRules_TrainingRule_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.FK_dbo_TrainingRosters_dbo_Trainings_Training_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="AuthDatabaseModel.TrainingTrainingCourses" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
